@@ -1,0 +1,21 @@
+<form [formGroup]="formEmployer" (submit)="submit()">
+
+    <div class="example-container">
+    <mat-form-field appearance="fill">
+      <mat-label>First Name</mat-label>
+      <input matInput formControlName="name" >
+    </mat-form-field>
+    <br>
+    <mat-form-field appearance="fill">
+      <mat-label>Salary</mat-label>
+      <input matInput formControlName="salary" >
+    </mat-form-field>
+    <br>
+    <mat-form-field appearance="fill">
+      <mat-label>Age</mat-label>
+      <input matInput formControlName="age" >
+    </mat-form-field>
+  </div>
+  <button mat-raised-button color = "primary" type="submit">Create</button>
+
+</form> 

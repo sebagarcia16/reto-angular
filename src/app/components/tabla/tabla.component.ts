@@ -34,7 +34,6 @@ export class TablaComponent implements OnInit {
   }
 
   delete() {
-    
   }
 
   ngOnChanges(): void {
